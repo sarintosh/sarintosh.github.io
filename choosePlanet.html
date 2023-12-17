@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel=stylesheet href="CSS/choosePlanet.css">
+    <link rel=stylesheet href="CSS/nav.css">
+    <title>Elije un planeta</title>
+</head>
+<body>
+    <header>
+        <ul class="menu-bar">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="planets.html">Planetario</a></li>
+            <li><a href="choosePlanet.html">Datos</a></li>
+            <li><a href="imgNASA.html">Imagen del día</a></li>
+            <li><a href="games.html">Juegos y Entretenimiento</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>      
+    </header>
+    <h1>Elije un planeta</h1>
+    <!-- Botones para cada planeta -->
+    <div class="planets-bar">
+        <ul>
+            <li onclick="getPlanetInfo('Mercury')">Mercury</li>
+            <li onclick="getPlanetInfo('Venus')">Venus</li>
+            <li onclick="getPlanetInfo('Earth')">Earth</li>
+            <li onclick="getPlanetInfo('Mars')">Mars</li>
+            <li onclick="getPlanetInfo('Jupiter')">Jupiter</li>
+            <li onclick="getPlanetInfo('Saturn')">Saturn</li>
+            <li onclick="getPlanetInfo('Uranus')">Uranus</li>
+            <li onclick="getPlanetInfo('Neptune')">Neptune</li>
+        </ul>
+    </div>
+    <!-- Div para mostrar la información -->
+    <div id="planetInfo" class="info-box"></div>
+    <div class="api">
+        <script src="JS/apiJS.js"></script>
+    </div>
+        <!--HTML planeta girando-->
+        <div id="planet"></div>
+        <div id="et"></div>
+      <!--FOOTER-->
+      <footer>
+        <p>&copy; 2023 Sara González Cruz</p>
+    </footer>
+</body>
+</html>

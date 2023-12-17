@@ -1,0 +1,66 @@
+ /*GOOOGLE FONT 'SPACE GROTESK'*/
+ @import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@300&display=swap');
+
+body {
+    background-image: url('../IMG/fondo.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav{  
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.menu-bar ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.menu-bar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu-bar {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 15px; 
+}
+
+
+.menu-bar li {
+    display: inline-block; 
+    margin: 0 20px;
+    position: relative;
+}
+
+
+
+a:hover {
+   text-shadow: 0 0 10px rgba(0, 255, 0, 0.8),
+   0 0 20px rgba(0, 255, 0, 0.6),
+   0 0 30px rgba(0, 255, 0, 0.4);
+   transform: scale(1.2);
+  }

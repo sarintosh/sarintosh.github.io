@@ -1,0 +1,66 @@
+/*GOOGLE FONT 'SPACE GROTESK'*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@300&display=swap');
+
+header{
+    text-align: center  !important;
+}
+
+/*Descripcion+texto*/
+.multi{
+    position: absolute;
+    text-align: center;
+    border-radius: 15px !important;
+    overflow: hidden;
+    color: #f0f0f0 !important;
+    border: none !important;
+}
+/* Titulo */
+#title{
+    color: #f0f0f0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 25x;
+    background-size: contain;
+    text-align: center;
+}
+
+/* Fecha */
+#date{
+    color: #f0f0f0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14x;
+    background-size: contain;
+    text-align:center;
+}
+/* Descripcion */
+#description{
+    color: #f0f0f0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14x;
+    background-size: contain;
+    text-align: justify;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+/*Imagen*/
+#c_multimedia {
+    text-align: center;
+}
+
+.img-fluid{
+    width: 35vw; 
+    height: 35vw; 
+}
+
+footer {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between; 
+    font-size: 14px; 
+}

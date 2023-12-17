@@ -1,0 +1,59 @@
+/*GOOGLE FONT 'SPACE GROTESK'*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@300&display=swap');
+@font-face {
+  font-family: 'Starjhol'; 
+  src: url('../../Fonts/Starjhol.ttf') format('truetype'); /* Corrige el formato del archivo de fuente */
+}
+
+canvas {
+    display: block; /* Asegura que el canvas se comporte como un bloque */
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  }
+  h1 {
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 2.9em;
+    font-family: 'Starjhol', sans-serif;
+    color: aliceblue;
+
+  }
+
+  body {
+    background-image: url('../assets/background.jpg'); 
+    flex-direction: column;
+    padding: 0px;
+    overflow: hidden; /* Agrega esta línea para ocultar el posible desbordamiento */
+  }
+  /*
+  .img-left {
+    max-width: 100px; /* ajusta el ancho máximo según tus necesidades 
+    height: auto;
+    margin-left: 1200px;
+    margin-top: -20%;
+}
+
+.img-right {
+    max-width: 100px; /* ajusta el ancho máximo según tus necesidades 
+    height: auto;
+    margin-right: 1200px;
+    margin-top: -15%;
+}
+
+.img-left {
+  max-width: 100px;
+  left: 0;
+  top: 50%; /* Ajusta la posición vertical según tus necesidades 
+  transform: translateY(-50%); /* Centra verticalmente la imagen 
+  margin-left: 1200px;
+}
+
+.img-right {
+  max-width: 100px;
+  right: 0;
+  top: 50%; /* Ajusta la posición vertical según tus necesidades 
+  transform: translateY(-50%); /* Centra verticalmente la imagen 
+  margin-right: 1200px;
+}
+*/

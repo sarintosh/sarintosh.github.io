@@ -1,0 +1,77 @@
+/* Google Font 'Space Grotesk' */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@300&display=swap');
+
+/* Reset de márgenes y padding para el body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+/* Contenedor flex para alinear verticalmente letras e imágenes */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    background-color: #111; 
+}
+
+/* Estilo para la caja de información */
+.info-box {
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Estilo para el título h1 */
+h1 {
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 255, 128, 0.8),
+    0 0 20px rgba(140, 0, 255, 0.6),
+    0 0 30px rgba(255, 0, 119, 0.4);
+}
+
+/* Estilo para la barra de planetas */
+.planets-bar ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.planets-bar li {
+    cursor: pointer;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.planets-bar li:hover {
+    text-shadow: 0 0 10px rgba(0, 255, 21, 0.8),
+    0 0 20px rgba(17, 0, 255, 0.6),
+    0 0 30px rgba(183, 0, 255, 0.4);
+}
+
+/* Estilo para el footer */
+footer {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 10px;
+}

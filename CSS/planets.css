@@ -1,0 +1,65 @@
+/* Google Font 'Space Grotesk' */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Space+Grotesk:wght@300&display=swap');
+
+/* Estilos generales */
+body {
+    background-image: url('../IMG/fondo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+/* Para configurar el tamaño y la posición de los planetas */
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.planetas {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Aplicar estilos a múltiples elementos con la misma regla */
+.neptune, .mercury, .venus, .earth, .mars, .saturn, .uranus, .jupiter, .sun {
+    width: calc(11.1% - 20px); 
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+}
+
+.neptune img, .mercury img, .venus img, .earth img, .mars img, .saturn img, .uranus img, .jupiter img, .sun img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+    .neptune, .mercury, .venus, .earth, .mars, .saturn, .uranus, .jupiter, .sun {
+        width: calc(25% - 20px);
+    }
+}
+
+footer {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; 
+    font-size: 14px; 
+}
